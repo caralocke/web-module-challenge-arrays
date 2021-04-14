@@ -144,8 +144,12 @@ Use the removeFlavorByName function below to do the following:
     HINT: You can use .splice() for this
 */
 
-function removeFlavorByName(array){
-    /*your code here*/
+function removeFlavorByName(array, str){
+    if(array.includes(str)){
+        let string = array.indexOf(str);
+        array.splice(string, 1);
+    }
+    return array
 }
 
 
