@@ -87,7 +87,10 @@ Use the addFlavor function below to do the following:
 
 
 function addFlavor(array){
-   /*your code here*/
+   const newFlavor = array.unshift('Rainbow Sherbert');
+
+   
+
 }
 
 
